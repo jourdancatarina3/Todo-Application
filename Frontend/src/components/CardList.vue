@@ -249,7 +249,7 @@ export default {
     async removeList() {
       try {
         await CustomList.objects.update(
-          { pk: 6 },
+          { pk: 1 },
           {
             custom_list: "",
           }
@@ -265,7 +265,7 @@ export default {
       if (this.customList) {
         try {
           await CustomList.objects.update(
-            { pk: 6 },
+            { pk: 1 },
             {
               custom_list: this.customList,
             }
