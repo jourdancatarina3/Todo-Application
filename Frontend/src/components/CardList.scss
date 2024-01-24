@@ -1,0 +1,246 @@
+.add-task-container {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+  }
+  
+  .list-containers {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .add-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  .list-card {
+    background-color: #f5f5f5;
+    width: 20rem;
+    padding: 5px 0;
+    border-radius: 0.75rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+      0 8px 10px -6px rgb(0 0 0 / 0.1);
+  }
+  
+  .display-list {
+    border-radius: 0.75rem;
+    max-height: 33rem;
+    overflow-y: auto;
+  }
+  
+  .list {
+    width: 20rem;
+    margin-right: 20px;
+  }
+  .list::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  .addTask {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 33.333333%;
+  }
+  
+  .catchphrase {
+    text-align: start;
+    margin-top: -1.5rem;
+  
+    p {
+      margin-top: -1rem;
+    }
+  }
+  
+  .add-task:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .description {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    height: 30px;
+  
+    label {
+      font-size: 20px;
+      margin-right: 15px;
+    }
+  
+    input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 300px;
+  
+      &:focus {
+        border: none;
+      }
+    }
+  }
+  
+  .task-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 2px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-card:hover {
+    border-color: #0096ff;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-width: 1.5px;
+  }
+  
+  .task-title {
+    font-family: "Avenir", sans-serif;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    width: 100%;
+    border: none;
+    resize: none;
+    height: 17px;
+  }
+  
+  .task-title:focus {
+    outline: none;
+  }
+  
+  .task-description {
+    font-family: "Avenir", sans-serif;
+    font-size: 0.9rem;
+    overflow-wrap: break-word;
+    width: 100%;
+    border: none;
+    resize: none;
+    height: 40px;
+  }
+  
+  .task-description:focus {
+    outline: none;
+  }
+  
+  .task-date {
+    font-family: "Avenir", sans-serif;
+    font-size: 0.9rem;
+    overflow-wrap: break-word;
+    width: 100%;
+    border: none;
+    resize: none;
+    height: 20px;
+  }
+  
+  .task-date:focus {
+    outline: none;
+  }
+  
+  .task {
+    padding: 15px;
+  }
+  
+  .add-button {
+    cursor: pointer;
+    margin: 4px 10px;
+    padding: 6px;
+    border-radius: 0.3rem;
+  }
+  .add-button:hover {
+    background-color: lightgray;
+  }
+  
+  .custom-list-button {
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #1a4666;
+    color: #fff;
+    border-radius: 0.75rem;
+    border: 1px solid #1a4666;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0;
+  }
+  
+  .custom-list-button:hover {
+    background-color: #0d2a3b;
+    color: #fff;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .add-task-button {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #1a4666;
+    color: #fff;
+    border-radius: 0.5rem;
+    border: 1px solid #1a4666;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .add-task-button:hover {
+    background-color: #0d2a3b;
+    color: #fff;
+  }
+  
+  .cancel-button {
+    background-color: #d9534f;
+    /* Red background color */
+    color: #fff;
+    /* White text color */
+    padding: 5px 20px;
+    /* Adjust padding as needed */
+    outline: none;
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add border radius for rounded corners */
+    cursor: pointer;
+    /* Set cursor to pointer on hover */
+  }
+  
+  .cancel-button:hover {
+    background-color: #c9302c;
+    /* Darker red on hover */
+  }
+  
+  textarea {
+    overflow: hidden;
+  }
+  .remove-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+  }
+  .remove-container:hover {
+    color: #d9534f;
+  }
+  .remove {
+    display: flex;
+    flex-direction: column;
+  }
+  .remove-list-button {
+    border: solid 3px;
+    width: 5rem;
+    border-radius: 100%;
+    padding: 20px 0;
+    margin: auto;
+  }
+  .trash-button {
+    font-size: 35px;
+  }
+  

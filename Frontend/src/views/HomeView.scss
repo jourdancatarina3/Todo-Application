@@ -1,0 +1,39 @@
+.home {
+    text-align: center;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .list-containers {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    background: #aed9e0;
+    border-radius: 0.75rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .cardContainers {
+    display: flex;
+    justify-content: start;
+    overflow-x: auto;
+  }
+  
+  .catchphrase {
+    text-align: start;
+    margin-top: -1.5rem;
+  
+    p {
+      margin-top: -1rem;
+    }
+  }
+  
